@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="backend"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Crow\;CMake Files\Crow\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/miya/backend/cmake-build-debug-wsl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/miya/backend/cmake-build-debug-wsl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/miya/backend/cmake-build-debug-wsl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/miya/backend/cmake-build-debug-wsl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/miya/backend/cmake-build-debug-wsl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/miya/backend/cmake-build-debug-wsl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/miya/backend/cmake-build-debug-wsl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="/home/miya/backend/cmake-build-debug-wsl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="/home/miya/backend/cmake-build-debug-wsl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="backend">
+				<Option output="/home/miya/backend/cmake-build-debug-wsl/backend" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/miya/backend/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DASIO_STANDALONE"/>
+					<Add directory="/home/miya/backend/Crow/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 backend"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="backend/fast">
+				<Option output="/home/miya/backend/cmake-build-debug-wsl/backend" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/miya/backend/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DASIO_STANDALONE"/>
+					<Add directory="/home/miya/backend/Crow/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 backend/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/home/miya/backend/cmake-build-debug-wsl/Crow"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Crow/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Crow/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Crow/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/miya/backend/cmake-build-debug-wsl/Crow/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/miya/backend/handlers/cat_handler.cpp">
+			<Option target="backend"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/handlers/cow_handler.cpp">
+			<Option target="backend"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/handlers/delete_all_animals_handler.cpp">
+			<Option target="backend"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/handlers/dog_handler.cpp">
+			<Option target="backend"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/handlers/fish_handler.cpp">
+			<Option target="backend"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/handlers/get_all_animals_handler.cpp">
+			<Option target="backend"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/handlers/handlers.h">
+			<Option target="backend"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/lib/animals_lib.cpp">
+			<Option target="backend"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/lib/libs.h">
+			<Option target="backend"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/main.cpp">
+			<Option target="backend"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/mappers/animalRequestMapper.cpp">
+			<Option target="backend"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/mappers/catalogMapper.cpp">
+			<Option target="backend"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/mappers/mappers.h">
+			<Option target="backend"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/services/Animal.h">
+			<Option target="backend"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/services/Cat.cpp">
+			<Option target="backend"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/services/Cow.cpp">
+			<Option target="backend"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/services/DeleteAllAnimals.cpp">
+			<Option target="backend"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/services/Dog.cpp">
+			<Option target="backend"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/services/Fish.cpp">
+			<Option target="backend"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/services/GetAllAnimals.cpp">
+			<Option target="backend"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/sql/migrations/animals_migration.h">
+			<Option target="backend"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/sql/other_sql/animal_sqls.h">
+			<Option target="backend"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/sql/repo/DatabaseRepoException.cpp">
+			<Option target="backend"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/sql/repo/animalsRepo.h">
+			<Option target="backend"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/sql/repo/animals_repo.cpp">
+			<Option target="backend"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/Crow/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Crow\"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/Crow/cmake/CrowConfig.cmake.in">
+			<Option virtualFolder="CMake Files\Crow\cmake\"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/Crow/cmake/Findasio.cmake">
+			<Option virtualFolder="CMake Files\Crow\cmake\"/>
+		</Unit>
+		<Unit filename="/home/miya/backend/Crow/cmake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\Crow\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

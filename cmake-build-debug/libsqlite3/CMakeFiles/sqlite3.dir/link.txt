@@ -1,0 +1,1 @@
+/usr/bin/clang -fPIC -g  -shared -Wl,-soname,libsqlite3.so -o libsqlite3.so CMakeFiles/sqlite3.dir/sqlite3.c.o  -Wl,-rpath,:::::::::::::: -lpthread -ldl 
