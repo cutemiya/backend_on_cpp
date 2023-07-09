@@ -1,14 +1,12 @@
-#include <string>
-
 #include "Animal.h"
 #include "../sql/repo/animalsRepo.h"
 
 class Cat: Animal {
 public:
     Cat(std::string k, std::string g, std::string i, std::string u) {
-        this->kind = k;
-        this->genus = g;
-        this->info = i;
+        this->kind = std::move(k);
+        this->genus = std::move(g);
+        this->info = std::move(i);
         this->photo.setUrl(u);
     }
 
@@ -19,7 +17,6 @@ public:
     std::string writeToBd() override {
         try {
             auto db = connect("database.db");
-
             if (writeToDatabase(
                     db,
                     "cat",
@@ -37,19 +34,4 @@ public:
             return error.getError();
         }
     }
-private:
-    class Photo {
-    public:
-        void setUrl(std::string& u) {
-            this->url = u;
-        }
-        std::string getUrl() {
-            return this->url;
-        }
-
-    private:
-        std::string url;
-    };
-
-    Photo photo;
 };
